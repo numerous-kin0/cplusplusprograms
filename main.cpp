@@ -1,14 +1,26 @@
-//Created: 29-11-2023
+//Created: 23-11-2023
 //Author: Mabo Giqwa
-//Purpose: Tic-Tac-Toe game
+//Purpose: Converts roman numerals to positive
+//integers.
+//Constraint 1: The romanType class needs functions that
+//will validate input, for example, the program converts
+//the input LIXIX even though it is not a roman numeral.
+//Constraint 2: The romanType class needs a second constructor
+//so it will be easier to initialize the member variable romanN
+//instead of using input_roman_numeral().
+
+#include <iostream>
+#include "roman_to_int.h"
 
 int main()
 {
-    ticTacToe game1;
+    romanType roman_numeral_1;
 
-    game1.get_name_of_players();
-    game1.print_board();
-    game1.begin_game();
+    roman_numeral_1.input_roman_numeral();
+
+    roman_numeral_1.convert_roman_numeral_to_number();
+
+    roman_numeral_1.print_converted_roman_numeral();
 
     return 0;
 }
