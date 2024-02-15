@@ -1,2 +1,2 @@
 # cplusplusprograms
-Linked list class that is not complete yet. Methods such as divideList are not fully functional.
+Code repository for the cpp programs I have worked on while studying for my Computer Science undergrad.
