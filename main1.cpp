@@ -1,6 +1,6 @@
 //Created: 23-11-2023
 //Author: Mabo Giqwa
-//Purpose: Converts roman numerals to positive
+//Purpose: Converts roman numerals between 1- 1500 to positive
 //integers.
 //Constraint 1: The romanType class needs functions that
 //will validate input, for example, the program converts
