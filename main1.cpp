@@ -9,6 +9,8 @@
 //so it will be easier to initialize the member variable romanN
 //instead of using input_roman_numeral().
 
+//Main file to roman numeral to integer program
+
 #include <iostream>
 #include "roman_to_int.h"
 
