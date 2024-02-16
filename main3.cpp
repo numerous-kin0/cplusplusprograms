@@ -2,7 +2,7 @@
 //Created: 2/16/2024
 //Author: Mabo Giqwa
 //Purpose: Solves linear systems with 2 equations and 2 variables.
-//Main file
+//Main file to linetype program
 #include "linetype.h"
 
 int main()
