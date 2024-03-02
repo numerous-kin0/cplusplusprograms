@@ -1,4 +1,4 @@
-//Interface file to tic-tac toe game
+//Interface file
 #ifndef ROMAN_TO_INT_H
 #define ROMAN_TO_INT_H
 
