@@ -3,7 +3,7 @@
 //prototypes and private pointers.
 //Written by M.Giqwa
 //19-07-2023
-//A lot of syntax errors
+//A lot of syntax errors are present
 #ifndef LINKEDLIST_H
 #define LINKEDLIST_H
 
