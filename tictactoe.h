@@ -5,6 +5,9 @@
 #include <iostream>
 #include <string>
 
+const int ROWS = 7;
+const int COLUMNS = 7;
+
 class ticTacToe
 {
 public:
