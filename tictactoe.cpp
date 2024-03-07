@@ -50,6 +50,8 @@ void ticTacToe::populate_board()
         }
     }
 
+    //A for loop can be used
+    //to populate these values
     board[1][1] = 'A';
     board[1][3] = 'B';
     board[1][5] = 'C';
