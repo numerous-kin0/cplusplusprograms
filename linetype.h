@@ -37,9 +37,9 @@ public:
     //The values for the formal parameters are represented as Ax + By = C, in the standard
     //form.
 private:
-	double a;
-	double b;
-	double c;
+    double a;
+    double b;
+    double c;
 };
 
 #endif
