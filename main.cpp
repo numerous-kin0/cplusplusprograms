@@ -1,6 +1,7 @@
 //Created: 29-11-2023
 //Author: Mabo Giqwa
 //Purpose: Tic-Tac-Toe game
+#include "tictactoe.h"
 
 int main()
 {
