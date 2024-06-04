@@ -224,11 +224,14 @@ void add_node_to_list(NodePtr &currentNode, double c, double exp)
 
 void deallocate_linked_list(NodePtr &head)
 {
-   NodePtr tempPtr;
-   for (tempPtr = head; tempPtr != nullptr; tempPtr = tempPtr->link)
+   NodePtr currPtr = head;
+   while (currPtr != nullptr)
    {
-      delete tempPtr;
+      NodePtr nextPtr = currPtr->link;
+      delete currPtr;
+      currPtr = nextPtr;
    }
+         
 }
        
 void print_linked_list(NodePtr head)
